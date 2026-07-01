@@ -1,0 +1,15 @@
+{ 
+    "authenticated": false, 
+    "originName": null, 
+    "age": 0, 
+    "country": null, 
+    "status": null, 
+    "pid": null, 
+    "eid": null, 
+    "email": null, 
+    "securityChallengeVerified": false, 
+    "entitlements": null, 
+    "connectedPlatforms": [], 
+    "uniqueConnectedPlatforms": [], 
+    "clientAccessToken": null 
+}

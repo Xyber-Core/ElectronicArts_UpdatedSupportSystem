@@ -1,0 +1,202 @@
+{
+  "navigationPages": [
+    {
+      "page": "mycases",
+      "title": "My Cases",
+      "subtitle": "View and manage support cases you've created with your EA Account."
+    },
+    {
+      "page": "forumsupport",
+      "title": "Forums",
+      "subtitle": "Join discussions, get help from the community, and share feedback."
+    },
+    {
+      "page": "gamesupport",
+      "title": "Game Support",
+      "subtitle": "Find fixes, troubleshooting steps, and game-specific help."
+    },
+    {
+      "page": "platformsupport",
+      "title": "Platform Support",
+      "subtitle": "Get help with EA games across every platform — PC, console, mobile, and more."
+    },
+    {
+      "page": "myaccount",
+      "title": "EA Account",
+      "subtitle": "Manage account settings, security, and connected platforms."
+    }
+  ],
+
+  "subNavigation": {
+    "mycases": [
+      {
+        "page": "mycases",
+        "title": "My Cases - Home",
+        "icon": "fa-solid fa-briefcase",
+        "link": "/SRC/HTML/Pages/MyCases.html"
+      },
+      {
+        "page": "opencases",
+        "title": "Open Cases",
+        "icon": "fa-solid fa-folder-open",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "resolvedcases",
+        "title": "Resolved Cases",
+        "icon": "fa-solid fa-circle-check",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "livechat",
+        "title": "Live Chat Support",
+        "icon": "fa-solid fa-headset",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "casehistory",
+        "title": "Case History",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "prioritysupport",
+        "title": "Priority Support",
+        "icon": "fa-solid fa-star",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      }
+    ],
+    
+    "myaccount": [
+      {
+        "page": "myaccount",
+        "title": "My Account - Home",
+        "icon": "fa-solid fa-house-user",
+        "link": "/SRC/HTML/Pages/MyAccount.html"
+      },
+      {
+        "page": "security",
+        "title": "Manage Account",
+        "icon": "fa-solid fa-user-gear",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "connections",
+        "title": "Request a Refund",
+        "icon": "fa-solid fa-cart-shopping",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "privacy",
+        "title": "Penalty History",
+        "icon": "fa-solid fa-shop-lock",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "accountrecovery",
+        "title": "Manage Linked Accounts",
+        "icon": "fa-solid fa-sliders",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      }
+    ],
+
+    "platformsupport": [
+      {
+        "page": "platformsupport",
+        "title": "Platform Support - Home",
+        "icon": "fa-solid fa-computer",
+        "link": "/SRC/HTML/Pages/PlatformSupport.html"
+      },
+      {
+        "page": "pc",
+        "title": "PC",
+        "icon": "fa-solid fa-desktop",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "playstation",
+        "title": "PlayStation",
+        "icon": "fa-brands fa-playstation",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "xbox",
+        "title": "Xbox",
+        "icon": "fa-brands fa-xbox",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "switch",
+        "title": "Nintendo Switch",
+        "icon": "fa-solid fa-gamepad",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      }
+    ],
+
+    "gamesupport": [
+      {
+        "page": "gamesupport",
+        "title": "Game Support - Home",
+        "icon": "fa-solid fa-gamepad",
+        "link": "/SRC/HTML/Pages/GameSupport.html"
+      },
+      {
+        "page": "downloadissues",
+        "title": "Download Issues",
+        "icon": "fa-solid fa-download",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "crashes",
+        "title": "Game Crashes",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "connectivity",
+        "title": "Connection Problems",
+        "icon": "fa-solid fa-wifi",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "saveissues",
+        "title": "Save Data Recovery",
+        "icon": "fa-solid fa-floppy-disk",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      }
+    ],
+
+    "forumsupport": [
+      {
+        "page": "forumsupport",
+        "title": "Support Forums - Home",
+        "icon": "fa-solid fa-comments",
+        "link": "/SRC/HTML/Pages/ForumSupport.html"
+      },
+      {
+        "page": "popularthreads",
+        "title": "Popular Threads",
+        "icon": "fa-solid fa-fire",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "answeredtopics",
+        "title": "Answered Topics",
+        "icon": "fa-solid fa-circle-check",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "communityguides",
+        "title": "Community Guides",
+        "icon": "fa-solid fa-book-open",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      },
+      {
+        "page": "knownissues",
+        "title": "Known Issues",
+        "icon": "fa-solid fa-bug",
+        "link": "/SRC/HTML/Pages/Placeholder.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1345 @@
+{
+  "accountItems": {
+    "sections": [
+      {
+        "id": "management-recovery",
+        "name": "Management and Recovery",
+        "icon": "fa-shield-halved",
+        "topics": [
+          { "text": "Reset your EA Account password", "url": "https://help.ea.com/en/help/account/reset-your-ea-account-password/" },
+          { "text": "Recover your EA Account", "url": "https://help.ea.com/en/help/account/ea-account-recovery/" },
+          { "text": "Change your email address", "url": "https://help.ea.com/en/help/account/changing-your-ea-account-email/" },
+          { "text": "Update security question and answer", "url": "https://help.ea.com/en/help/account/update-your-security-question/" },
+          { "text": "Set up two-factor authentication (2FA)", "url": "https://help.ea.com/en/help/account/two-factor-authentication-login-verification/" },
+          { "text": "Recover a hacked or compromised account", "url": "https://help.ea.com/en/help/account/recovering-your-hacked-ea-account/" },
+          { "text": "Change your date of birth", "url": "https://help.ea.com/en/help/account/change-of-birth-date-on-ea-account/" },
+          { "text": "Update your country or region", "url": "https://help.ea.com/en/help/account/update-ea-account-country/" }
+        ]
+      },
+      {
+        "id": "account-creation",
+        "name": "Account Creation",
+        "icon": "fa-user-plus",
+        "topics": [
+          { "text": "Create a new EA Account", "url": "https://help.ea.com/en/help/account/creating-an-ea-account/" },
+          { "text": "Age verification requirements", "url": "https://help.ea.com/en/help/account/ea-account-age-verification/" },
+          { "text": "Set up your EA Account profile", "url": "https://help.ea.com/en/help/account/ea-account-profile/" },
+          { "text": "EA Account username requirements", "url": "https://help.ea.com/en/help/account/ea-account-username/" }
+        ]
+      },
+      {
+        "id": "linking",
+        "name": "Linking",
+        "icon": "fa-link",
+        "topics": [
+          { "text": "Link a platform account to EA", "url": "https://help.ea.com/en/help/account/linking-accounts/" },
+          { "text": "Unlink a platform account", "url": "https://help.ea.com/en/help/account/how-to-unlink-your-ea-account/" },
+          { "text": "Manage all linked accounts", "url": "https://help.ea.com/en/help/account/managing-connections/" }
+        ]
+      },
+      {
+        "id": "memberships",
+        "name": "Memberships",
+        "icon": "fa-star",
+        "topics": [
+          { "text": "EA Play membership overview", "url": "https://help.ea.com/en/help/ea-play/ea-play/" },
+          { "text": "Cancel your EA Play subscription", "url": "https://help.ea.com/en/help/ea-play/cancel-ea-play-membership/" },
+          { "text": "EA Play Pro on PC", "url": "https://help.ea.com/en/help/ea-play/ea-play-pro/" },
+          { "text": "Billing and payment issues", "url": "https://help.ea.com/en/help/account/billing-questions/" },
+          { "text": "Manage subscription settings", "url": "https://help.ea.com/en/help/ea-play/manage-ea-play-membership/" },
+          { "text": "Free trials and promotions", "url": "https://help.ea.com/en/help/ea-play/ea-play-free-trial/" }
+        ]
+      },
+      {
+        "id": "mobile-game-accounts",
+        "name": "Mobile Game Accounts",
+        "icon": "fa-mobile-screen-button",
+        "topics": [
+          { "text": "Link your mobile game account", "url": "https://help.ea.com/en/help/account/link-your-ea-account-to-a-mobile-game/" },
+          { "text": "Transfer mobile game progress", "url": "https://help.ea.com/en/help/account/transfer-game-progress/" },
+          { "text": "Mobile account login issues", "url": "https://help.ea.com/en/help/account/mobile-login-issues/" }
+        ]
+      },
+      {
+        "id": "child-teen-accounts",
+        "name": "Child and Teen Accounts",
+        "icon": "fa-children",
+        "topics": [
+          { "text": "Create a child account", "url": "https://help.ea.com/en/help/account/ea-account-for-children/" },
+          { "text": "Family settings and parental controls", "url": "https://help.ea.com/en/help/account/family-settings-and-parental-controls-on-ea-account/" },
+          { "text": "Set spending limits for minors", "url": "https://help.ea.com/en/help/account/spending-limits-for-minors/" },
+          { "text": "Update a child account's age", "url": "https://help.ea.com/en/help/account/updating-a-childs-date-of-birth/" },
+          { "text": "Convert a child account to adult", "url": "https://help.ea.com/en/help/account/converting-child-account/" }
+        ]
+      },
+      {
+        "id": "troubleshoot-issues",
+        "name": "Troubleshoot Issues",
+        "icon": "fa-triangle-exclamation",
+        "topics": [
+          { "text": "Can't sign in to your EA Account", "url": "https://help.ea.com/en/help/account/ea-account-sign-in-issues/" },
+          { "text": "EA Account locked or suspended", "url": "https://help.ea.com/en/help/account/ea-account-banned-or-suspended/" },
+          { "text": "Two-factor authentication problems", "url": "https://help.ea.com/en/help/account/two-factor-authentication-issues/" }
+        ]
+      },
+      {
+        "id": "friends-social",
+        "name": "Friends and Social Features",
+        "icon": "fa-user-group",
+        "topics": [
+          { "text": "Add and manage EA friends", "url": "https://help.ea.com/en/help/account/managing-ea-friends/" },
+          { "text": "Social features and privacy settings", "url": "https://help.ea.com/en/help/account/privacy-settings/" }
+        ]
+      }
+    ],
+
+    "articles": [
+      { "num": "01", "text": "How to link your EA Account", "url": "https://help.ea.com/en/help/account/linking-accounts/" },
+      { "num": "02", "text": "How to get back into your EA Account", "url": "https://help.ea.com/en/help/account/ea-account-recovery/" },
+      { "num": "03", "text": "How to create an EA Account", "url": "https://help.ea.com/en/help/account/creating-an-ea-account/" },
+      { "num": "04", "text": "How to delete an EA Account", "url": "https://help.ea.com/en/help/account/delete-ea-account/" }
+    ]
+  },
+
+  "platformItems": {
+    "sections": [
+      {
+        "id": "ea-app",
+        "name": "EA App",
+        "icon": "fa-desktop",
+        "topics": [
+          {
+            "text": "How to use the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/how-to-use-ea-app/"
+          },
+          {
+            "text": "How to download, install, and update the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/ea-app-download-install-update/"
+          },
+          {
+            "text": "How to uninstall the EA app and your games",
+            "url": "https://help.ea.com/en/articles/platforms/how-to-uninstall-ea-app-and-games/"
+          },
+          {
+            "text": "How to play games in the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/download-and-play-ea-app-games/"
+          },
+          {
+            "text": "How to close background applications to run the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/ea-app-how-to-close-background-apps/"
+          },
+          {
+            "text": "How to change the language settings in the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/ea-app-change-language-settings/"
+          }
+        ]
+      },
+      {
+        "id": "pc-gaming",
+        "name": "PC Gaming",
+        "icon": "fa-solid fa-computer",
+        "topics": [
+          {
+            "text": "How to troubleshoot EA Play Pro upgrade errors on PC",
+            "url": "https://help.ea.com/en/articles/platforms/ea-play-pro-upgrade-errors/"
+          },
+          {
+            "text": "How do I install and troubleshoot EA Javelin anticheat on PC?",
+            "url": "https://help.ea.com/en/articles/platforms/pc-ea-anticheat/"
+          },
+          {
+            "text": "How to update your PC or macOS for the EA app",
+            "url": "https://help.ea.com/en/articles/platforms/how-to-update-operating-system-ea-app/"
+          },
+          {
+            "text": "How to display an FPS counter in EA games on PC",
+            "url": "https://help.ea.com/en/articles/platforms/fps-counter-ea-games-pc/"
+          }
+        ]
+      },
+      {
+        "id": "console-gaming",
+        "name": "Console Gaming",
+        "icon": "fa-gamepad",
+        "topics": [
+          {
+            "text": "How does EA Play work with Xbox Game Pass?",
+            "url": "https://help.ea.com/en/articles/platforms/ea-play-and-xbox-game-pass/"
+          },
+          {
+            "text": "Troubleshoot PC, PlayStation®, and Xbox crashing or freezing",
+            "url": "https://help.ea.com/en/articles/platforms/fix-crashing-and-freezing/"
+          }
+        ]
+      },
+      {
+        "id": "mobile-gaming",
+        "name": "Mobile gaming",
+        "icon": "fa-mobile-screen-button",
+        "topics": [
+          {
+            "text": "How to use the EA SPORTS App",
+            "url": "https://help.ea.com/en/articles/platforms/ea-sports-app-guide/"
+          },
+          {
+            "text": "Troubleshooting EA mobile games on Android devices",
+            "url": "https://help.ea.com/en/articles/platforms/android-crashing-freezing/"
+          },
+          {
+            "text": "Troubleshooting EA mobile games on iPad and iPhone",
+            "url": "https://help.ea.com/en/articles/platforms/ipad-iphone-crashing-freezing/"
+          },
+          {
+            "text": "How to save your EA mobile game",
+            "url": "https://help.ea.com/en/articles/platforms/save-ea-mobile-games/"
+          }
+        ]
+      },
+      {
+        "id": "other-gaming-platforms",
+        "name": "Other Gaming Platforms",
+        "icon": "fa-layer-group",
+        "topics": [
+          {
+            "text": "How to play EA games on Amazon Luna",
+            "url": "https://help.ea.com/en/articles/platforms/amazon-luna/"
+          },
+          {
+            "text": "How Moments works in the EA SPORTS App",
+            "url": "https://help.ea.com/en/articles/platforms/ea-sports-app-moments/"
+          }
+        ]
+      }
+    ],
+
+    "articles": [
+      { "num": "01", "text": "Installing and troubleshooting EA Javelin anticheat on PC", "url": "https://help.ea.com/en/articles/platforms/pc-ea-anticheat/" },
+      { "num": "02", "text": "Download, install, and update the EA app", "url": "https://help.ea.com/en/articles/platforms/ea-app-download-install-update/" },
+      { "num": "03", "text": "Troubleshooting EA mobile games on Android devices", "url": "https://help.ea.com/en/articles/platforms/save-ea-mobile-games/" },
+      { "num": "04", "text": "How to play games in the EA app", "url": "https://help.ea.com/en/articles/platforms/android-crashing-freezing/" }
+    ]
+  },
+
+  "gameSupportItems": {
+    "trendingItems": [
+      {
+        "name": "Jedi: Survivor",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Survivor.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-survivor/",
+        "tags": ["star wars", "jedi", "action", "rpg", "single player"]
+      },
+      {
+        "name": "Jedi: Fallen Order",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Fallen Order.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-fallen-order/",
+        "tags": ["star wars", "jedi", "action", "rpg", "single player"]
+      },
+      {
+        "name": "Star Wars Battlefront II",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars Battlefront II.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-battlefront-ii/",
+        "tags": ["star wars", "battlefront", "fps", "shooter", "multiplayer"]
+      },
+      {
+        "name": "Star Wars Squadrons",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Squadrons.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-squadrons/",
+        "tags": ["star wars", "squadrons", "flight", "space", "multiplayer"]
+      }
+    ],
+
+    "franchiseItems": [
+      {
+        "id": "star-wars",
+        "name": "Star Wars",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars - EA.webp",
+        "games": [
+          {
+            "id": "jedi-survivor",
+            "name": "Jedi: Fallen Order",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Fallen Order.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-fallen-order/",
+            "tags": ["star wars", "jedi", "action", "rpg", "single player"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Jedi: Survivor",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Survivor.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-survivor/",
+            "tags": ["star wars", "jedi", "action", "rpg", "single player"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Star Wars Battlefront",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars Battlefront.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-battlefront/",
+            "tags": ["star wars", "battlefront", "fps", "shooter", "multiplayer"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Star Wars Battlefront II",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars Battlefront II.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-battlefront-ii/",
+            "tags": ["star wars", "battlefront", "fps", "shooter", "multiplayer"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Star Wars Galaxy of Heroes",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Galaxy of Heroes.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-galaxy-heroes/",
+            "tags": ["star wars", "galaxy of heroes", "mobile", "rpg", "strategy"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Star Wars Squadrons",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Squadrons.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-squadrons/",
+            "tags": ["star wars", "squadrons", "flight", "space", "multiplayer"],
+            "franchise": "star-wars"
+          },
+          {
+            "name": "Star Wars The Old Republic",
+            "img": "/SRC/Assets/Images/StarWarsIcons/The Old Republic.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-the-old-republic/",
+            "tags": ["star wars", "the old republic", "mmo", "rpg", "multiplayer"],
+            "franchise": "star-wars"
+          }
+        ]
+      },
+      {
+        "id": "ea-sports-fc",
+        "name": "EA Sports FC",
+        "img": "https://cdn.worldvectorlogo.com/logos/ea-sports-3.svg",
+        "accent": "#00a651",
+        "icon": "fa-futbol",
+        "games": [
+          {
+            "name": "EA Sports FC 26",
+            "img": "https://help.ea.com/_images/seegk6e7ypwi/6gpdzMe7UOYdpLqPRkqZpp/0a543b117f22f4b0abf5c61570db3912/fc-26-box-art-image.webp",
+            "url": "https://help.ea.com/en/games/ea-sports-fc/fc-26/",
+            "tags": ["ea sports fc", "fc", "fc 26", "fifa", "football", "soccer", "sports"]
+          },
+          {
+            "name": "EA Sports FC 24",
+            "img": "https://cdn2.steamgriddb.com/thumb/ed81f55ac51237dc55910186efd5a495.jpg",
+            "url": "https://help.ea.com/en/games/ea-sports-fc/fc-24/",
+            "tags": ["ea sports fc", "fc", "fc 24", "fifa", "football", "soccer", "sports"]
+          },
+          {
+            "name": "FIFA 23",
+            "img": "https://cdn2.steamgriddb.com/thumb/8fa10fa8640a64bde3665a3be2051b51.jpg",
+            "url": "https://help.ea.com/en/games/ea-sports-fc/fc-25/",
+            "tags": ["ea sports fc", "fc", "fifa", "fifa 23", "football", "soccer", "sports"]
+          }
+        ]
+      },
+      {
+        "id": "battlefield",
+        "name": "Battlefield",
+        "img": "https://cdn2.steamgriddb.com/icon_thumb/916de785d2ef62534956d827ef074884.png",
+        "games": [
+          {
+            "name": "Battlefield 2042",
+            "img": "https://cdn2.steamgriddb.com/thumb/06cbf59777880dfb10eeec416060f163.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-2042/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf2042"]
+          },
+          {
+            "name": "Battlefield V",
+            "img": "https://cdn2.steamgriddb.com/thumb/ed699f1ad2b29cc7163de85ba523e413.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-v/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "ww2", "bfv"]
+          },
+          {
+            "name": "Battlefield 6",
+            "img": "https://cdn2.steamgriddb.com/thumb/2967eb2f93f54634a91cbc8cf3430b4b.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-labs/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf6"]
+          },
+          {
+            "name": "Battlefield Labs",
+            "img": "https://cdn2.steamgriddb.com/thumb/67ba3259caa65642f31069a1a7d91fbe.jpg",
+            "url": "https://help.ea.com/en/battlefield/battlefield-v/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "labs", "beta"]
+          },
+          {
+            "name": "Battlefield Hardline",
+            "img": "https://cdn2.steamgriddb.com/thumb/ad0d6ceabcf6c746ae9ba1da7c826c09.png",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-hardline/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "hardline", "cops"]
+          },
+          {
+            "name": "Battlefield 4",
+            "img": "https://cdn2.steamgriddb.com/thumb/771dd529ffdd3fda1a93ad0659a99bba.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-4/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf4"]
+          },
+          {
+            "name": "Battlefield 1",
+            "img": "https://cdn2.steamgriddb.com/thumb/af6817ea9c2054b390f56f94f2efd157.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-1/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "ww1", "bf1"]
+          },
+          {
+            "name": "Battlefield 3",
+            "img": "https://cdn2.steamgriddb.com/thumb/9ed695254285a3b7379aa3e2694489e3.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-3/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf3"]
+          }
+        ]
+      },
+      {
+        "id": "the-sims",
+        "name": "The Sims",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/6YX0B0YRgAVQhusUCSrKs1/ba8aa29c8b5b80b78afeb167b0bb23a9/the-sims-freeplay-box-art-image.webp",
+        "games": [
+          {
+            "name": "The Sims 4",
+            "img": "https://cdn2.steamgriddb.com/thumb/5c1d8b6ff107dafb76906e0334e62a87.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "the sims", "sims 4", "simulation", "life sim"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "SimCity",
+            "img": "https://cdn2.steamgriddb.com/thumb/6fbfe4f969a8fc13c88c3352e1ee8c99.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+            "tags": ["sims", "simcity", "sim city", "simulation", "city builder", "strategy"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "SimCity Buildit",
+            "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4k.webp",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "simcity", "sim city", "buildit", "simulation", "city builder", "mobile"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "The Sims 3",
+            "img": "https://cdn2.steamgriddb.com/thumb/9f9a39a966782c30b1cad272678817f4.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+            "tags": ["sims", "the sims", "sims 3", "simulation", "life sim"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "The Sims Freeplay",
+            "img": "https://cdn2.steamgriddb.com/thumb/d5f6c58dc97738436e47c9071d36b665.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "the sims", "freeplay", "simulation", "life sim", "mobile"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "MySims: Cozy Bundle",
+            "img": "https://cdn2.steamgriddb.com/thumb/a017e701296751200dc2031d9dda6ecb.png",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+            "tags": ["sims", "mysims", "my sims", "simulation", "cozy"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "The Sims 2: Legacy Collection",
+            "img": "https://cdn2.steamgriddb.com/thumb/3ed3a1e616ae775ac9a15faaf6dd8f75.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "the sims", "sims 2", "simulation", "life sim", "legacy"],
+            "franchise": "the-sims"
+          },
+          {
+            "name": "The Sims: Legacy Collection",
+            "img": "https://cdn2.steamgriddb.com/thumb/8702a092099be98846b10843a5d45453.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+            "tags": ["sims", "the sims", "sims 1", "simulation", "life sim", "legacy"],
+            "franchise": "the-sims"
+          }
+        ]
+      },
+      {
+        "id": "need-for-speed",
+        "name": "Need for Speed",
+        "img": "https://cdn2.steamgriddb.com/icon/c91e3483cf4f90057d02aa492d2b25b1/32/256x256.png",
+        "games": [
+          {
+            "name": "NFS Unbound",
+            "img": "https://cdn2.steamgriddb.com/thumb/c8a96ca4620cb058823b76fb3c6aa6e8.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-unbound/",
+            "tags": ["need for speed", "nfs", "unbound", "racing", "cars", "driving"]
+          },
+          {
+            "name": "NFS Heat",
+            "img": "https://cdn2.steamgriddb.com/thumb/886f46b709dbf016d1b3b2b4205264bb.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-heat/",
+            "tags": ["need for speed", "nfs", "heat", "racing", "cars", "driving"]
+          },
+          {
+            "name": "NFS Hot Pursuit Remastered",
+            "img": "https://cdn2.steamgriddb.com/thumb/5479c08b9242be562ee4ab79f5ed169b.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-hot-pursuit-remastered/",
+            "tags": ["need for speed", "nfs", "hot pursuit", "racing", "cars", "driving"]
+          },
+          {
+            "name": "NFS No Limits",
+            "img": "https://cdn2.steamgriddb.com/thumb/0e7523aa0cffa244fbf91fa10dbd2853.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-no-limits/",
+            "tags": ["need for speed", "nfs", "no limits", "racing", "cars", "driving", "mobile"]
+          }
+        ]
+      },
+      {
+        "id": "mass-effect",
+        "name": "Mass Effect",
+        "img": "https://cdn2.steamgriddb.com/icon/271b03e712a11c8c4c4b4b9153c2e29a/32/256x256.png",
+        "games": [
+          {
+            "name": "ME Legendary Edition",
+            "img": "https://cdn2.steamgriddb.com/thumb/ca897e6a0038f36de238bd81b9ef17f9.jpg",
+            "url": "https://help.ea.com/en/games/mass-effect/mass-effect-legendary-edition/",
+            "tags": ["mass effect", "me", "legendary edition", "rpg", "sci-fi", "shooter", "single player"]
+          },
+          {
+            "name": "ME Andromeda",
+            "img": "https://cdn2.steamgriddb.com/thumb/07f4dafbc9293fa6c555be969dacf4ef.jpg",
+            "url": "https://help.ea.com/en/games/mass-effect/mass-effect-andromeda/",
+            "tags": ["mass effect", "me", "andromeda", "rpg", "sci-fi", "shooter", "single player"]
+          }
+        ]
+      },
+      {
+        "id": "dragon-age",
+        "name": "Dragon Age",
+        "img": "https://cdn2.steamgriddb.com/icon/70175e34167c451ed908aa5da230e4f4/32/256x256.png",
+        "games": [
+          {
+            "name": "The Veilguard",
+            "img": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg",
+            "url": "https://help.ea.com/en/games/dragon-age/dragon-age-the-veilguard/",
+            "tags": ["dragon age", "veilguard", "rpg", "fantasy", "action", "single player"]
+          }
+        ]
+      },
+      {
+        "id": "apex-legends",
+        "name": "Apex Legends",
+        "img": "https://cdn2.steamgriddb.com/icon_thumb/9c926c8729189f4e871a4fed07a012e5.png",
+        "games": [
+          {
+            "name": "Apex Legends",
+            "img": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg",
+            "url": "https://help.ea.com/en/games/apex-legends/apex-legends/",
+            "tags": ["apex legends", "apex", "battle royale", "fps", "shooter", "multiplayer", "free to play"]
+          }
+        ]
+      }
+    ],
+
+    "gameItems": [
+      {
+        "id": "jedi-survivor",
+        "name": "Jedi: Fallen Order",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Fallen Order.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-fallen-order/",
+        "tags": ["star wars", "jedi", "action", "rpg", "single player"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Jedi: Survivor",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Survivor.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-survivor/",
+        "tags": ["star wars", "jedi", "action", "rpg", "single player"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Star Wars Battlefront",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars Battlefront.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-battlefront/",
+        "tags": ["star wars", "battlefront", "fps", "shooter", "multiplayer"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Star Wars Battlefront II",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Star Wars Battlefront II.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-battlefront-ii/",
+        "tags": ["star wars", "battlefront", "fps", "shooter", "multiplayer"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Star Wars Galaxy of Heroes",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Galaxy of Heroes.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-galaxy-heroes/",
+        "tags": ["star wars", "galaxy of heroes", "mobile", "rpg", "strategy"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Star Wars Squadrons",
+        "img": "/SRC/Assets/Images/StarWarsIcons/Squadrons.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-squadrons/",
+        "tags": ["star wars", "squadrons", "flight", "space", "multiplayer"],
+        "franchise": "star-wars"
+      },
+      {
+        "name": "Star Wars The Old Republic",
+        "img": "/SRC/Assets/Images/StarWarsIcons/The Old Republic.webp",
+        "url": "https://help.ea.com/en/games/star-wars/star-wars-the-old-republic/",
+        "tags": ["star wars", "the old republic", "mmo", "rpg", "multiplayer"],
+        "franchise": "star-wars"
+      },
+
+      {
+        "name": "EA Sports FC 26",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/6gpdzMe7UOYdpLqPRkqZpp/0a543b117f22f4b0abf5c61570db3912/fc-26-box-art-image.webp",
+        "url": "https://help.ea.com/en/games/ea-sports-fc/fc-26/",
+        "tags": ["ea sports fc", "fc", "fc 26", "fifa", "football", "soccer", "sports"]
+      },
+      {
+        "name": "EA Sports FC 24",
+        "img": "https://cdn2.steamgriddb.com/thumb/ed81f55ac51237dc55910186efd5a495.jpg",
+        "url": "https://help.ea.com/en/ea-sports-fc/ea-sports-fc-24/",
+        "tags": ["ea sports fc", "fc", "fc 24", "fifa", "football", "soccer", "sports"]
+      },
+      {
+        "name": "FIFA 23",
+        "img": "https://cdn2.steamgriddb.com/thumb/8fa10fa8640a64bde3665a3be2051b51.jpg",
+        "url": "https://help.ea.com/en/fifa/fifa-23/",
+        "tags": ["ea sports fc", "fc", "fifa", "fifa 23", "football", "soccer", "sports"]
+      },
+
+      {
+        "name": "Battlefield 2042",
+        "img": "https://cdn2.steamgriddb.com/thumb/06cbf59777880dfb10eeec416060f163.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-2042/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf2042"]
+      },
+      {
+        "name": "Battlefield V",
+        "img": "https://cdn2.steamgriddb.com/thumb/ed699f1ad2b29cc7163de85ba523e413.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-v/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "ww2", "bfv"]
+      },
+      {
+        "name": "Battlefield 6",
+        "img": "https://cdn2.steamgriddb.com/thumb/2967eb2f93f54634a91cbc8cf3430b4b.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-labs/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf6"]
+      },
+      {
+        "name": "Battlefield Labs",
+        "img": "https://cdn2.steamgriddb.com/thumb/67ba3259caa65642f31069a1a7d91fbe.jpg",
+        "url": "https://help.ea.com/en/battlefield/battlefield-v/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "labs", "beta"]
+      },
+      {
+        "name": "Battlefield Hardline",
+        "img": "https://cdn2.steamgriddb.com/thumb/ad0d6ceabcf6c746ae9ba1da7c826c09.png",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-hardline/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "hardline", "cops"]
+      },
+      {
+        "name": "Battlefield 4",
+        "img": "https://cdn2.steamgriddb.com/thumb/771dd529ffdd3fda1a93ad0659a99bba.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-4/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf4"]
+      },
+      {
+        "name": "Battlefield 1",
+        "img": "https://cdn2.steamgriddb.com/thumb/af6817ea9c2054b390f56f94f2efd157.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-1/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "ww1", "bf1"]
+      },
+      {
+        "name": "Battlefield 3",
+        "img": "https://cdn2.steamgriddb.com/thumb/9ed695254285a3b7379aa3e2694489e3.jpg",
+        "url": "https://help.ea.com/en/games/battlefield/battlefield-3/",
+        "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf3"]
+      },
+
+      {
+        "name": "The Sims 4",
+        "img": "https://cdn2.steamgriddb.com/thumb/5c1d8b6ff107dafb76906e0334e62a87.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+        "tags": ["sims", "the sims", "sims 4", "simulation", "life sim"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "SimCity",
+        "img": "https://cdn2.steamgriddb.com/thumb/6fbfe4f969a8fc13c88c3352e1ee8c99.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+        "tags": ["sims", "simcity", "sim city", "simulation", "city builder", "strategy"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "SimCity Buildit",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4k.webp",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+        "tags": ["sims", "simcity", "sim city", "buildit", "simulation", "city builder", "mobile"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "The Sims 3",
+        "img": "https://cdn2.steamgriddb.com/thumb/9f9a39a966782c30b1cad272678817f4.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+        "tags": ["sims", "the sims", "sims 3", "simulation", "life sim"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "The Sims Freeplay",
+        "img": "https://cdn2.steamgriddb.com/thumb/d5f6c58dc97738436e47c9071d36b665.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+        "tags": ["sims", "the sims", "freeplay", "simulation", "life sim", "mobile"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "MySims: Cozy Bundle",
+        "img": "https://cdn2.steamgriddb.com/thumb/a017e701296751200dc2031d9dda6ecb.png",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+        "tags": ["sims", "mysims", "my sims", "simulation", "cozy"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "The Sims 2: Legacy Collection",
+        "img": "https://cdn2.steamgriddb.com/thumb/3ed3a1e616ae775ac9a15faaf6dd8f75.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+        "tags": ["sims", "the sims", "sims 2", "simulation", "life sim", "legacy"],
+        "franchise": "the-sims"
+      },
+      {
+        "name": "The Sims: Legacy Collection",
+        "img": "https://cdn2.steamgriddb.com/thumb/8702a092099be98846b10843a5d45453.jpg",
+        "url": "https://help.ea.com/en/games/the-sims/the-sims-4/dlc/",
+        "tags": ["sims", "the sims", "sims 1", "simulation", "life sim", "legacy"],
+        "franchise": "the-sims"
+      },
+
+      {
+        "name": "NFS Unbound",
+        "img": "https://cdn2.steamgriddb.com/thumb/c8a96ca4620cb058823b76fb3c6aa6e8.jpg",
+        "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-unbound/",
+        "tags": ["need for speed", "nfs", "unbound", "racing", "cars", "driving"]
+      },
+      {
+        "name": "NFS Heat",
+        "img": "https://cdn2.steamgriddb.com/thumb/886f46b709dbf016d1b3b2b4205264bb.jpg",
+        "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-heat/",
+        "tags": ["need for speed", "nfs", "heat", "racing", "cars", "driving"]
+      },
+      {
+        "name": "NFS Hot Pursuit Remastered",
+        "img": "https://cdn2.steamgriddb.com/thumb/5479c08b9242be562ee4ab79f5ed169b.jpg",
+        "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-hot-pursuit-remastered/",
+        "tags": ["need for speed", "nfs", "hot pursuit", "racing", "cars", "driving"]
+      },
+      {
+        "name": "NFS No Limits",
+        "img": "https://cdn2.steamgriddb.com/thumb/0e7523aa0cffa244fbf91fa10dbd2853.jpg",
+        "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-no-limits/",
+        "tags": ["need for speed", "nfs", "no limits", "racing", "cars", "driving", "mobile"]
+      },
+
+      {
+        "name": "ME Legendary Edition",
+        "img": "https://cdn2.steamgriddb.com/thumb/ca897e6a0038f36de238bd81b9ef17f9.jpg",
+        "url": "https://help.ea.com/en/games/mass-effect/mass-effect-legendary-edition/",
+        "tags": ["mass effect", "me", "legendary edition", "rpg", "sci-fi", "shooter", "single player"]
+      },
+      {
+        "name": "ME Andromeda",
+        "img": "https://cdn2.steamgriddb.com/thumb/07f4dafbc9293fa6c555be969dacf4ef.jpg",
+        "url": "https://help.ea.com/en/games/mass-effect/mass-effect-andromeda/",
+        "tags": ["mass effect", "me", "andromeda", "rpg", "sci-fi", "shooter", "single player"]
+      },
+
+      {
+        "name": "The Veilguard",
+        "img": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg",
+        "url": "https://help.ea.com/en/games/dragon-age/dragon-age-the-veilguard/",
+        "tags": ["dragon age", "veilguard", "rpg", "fantasy", "action", "single player"]
+      },
+
+      {
+        "name": "Apex Legends",
+        "img": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg",
+        "url": "https://help.ea.com/en/games/apex-legends/apex-legends/",
+        "tags": ["apex legends", "apex", "battle royale", "fps", "shooter", "multiplayer", "free to play"]
+      }
+    ],
+
+    "platformItems": [
+      {
+        "id": "pc",
+        "name": "PC",
+        "icon": "fa-solid fa-computer",
+        "games": [
+          {
+            "name": "Jedi: Survivor",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Survivor.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-survivor/",
+            "tags": ["star wars", "jedi", "action", "rpg", "single player"]
+          },
+          {
+            "name": "Battlefield 2042",
+            "img": "https://cdn2.steamgriddb.com/thumb/06cbf59777880dfb10eeec416060f163.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-2042/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf2042"]
+          },
+          {
+            "name": "Apex Legends",
+            "img": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg",
+            "url": "https://help.ea.com/en/games/apex-legends/apex-legends/",
+            "tags": ["apex legends", "apex", "battle royale", "fps", "shooter", "multiplayer", "free to play"]
+          },
+          {
+            "name": "The Sims 4",
+            "img": "https://cdn2.steamgriddb.com/thumb/5c1d8b6ff107dafb76906e0334e62a87.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "the sims", "sims 4", "simulation", "life sim"]
+          },
+          {
+            "name": "ME Legendary Edition",
+            "img": "https://cdn2.steamgriddb.com/thumb/ca897e6a0038f36de238bd81b9ef17f9.jpg",
+            "url": "https://help.ea.com/en/games/mass-effect/mass-effect-legendary-edition/",
+            "tags": ["mass effect", "me", "legendary edition", "rpg", "sci-fi", "shooter", "single player"]
+          },
+          {
+            "name": "The Veilguard",
+            "img": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg",
+            "url": "https://help.ea.com/en/games/dragon-age/dragon-age-the-veilguard/",
+            "tags": ["dragon age", "veilguard", "rpg", "fantasy", "action", "single player"]
+          }
+        ]
+      },
+      {
+        "id": "ps4",
+        "name": "Playstation",
+        "icon": "fa-brands fa-playstation",
+        "games": [
+          {
+            "name": "EA Sports FC 26",
+            "img": "https://help.ea.com/_images/seegk6e7ypwi/6gpdzMe7UOYdpLqPRkqZpp/0a543b117f22f4b0abf5c61570db3912/fc-26-box-art-image.webp",
+            "url": "https://help.ea.com/en/games/ea-sports-fc/fc-26/",
+            "tags": ["ea sports fc", "fc", "fc 26", "fifa", "football", "soccer", "sports"]
+          },
+          {
+            "name": "Battlefield 2042",
+            "img": "https://cdn2.steamgriddb.com/thumb/06cbf59777880dfb10eeec416060f163.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-2042/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "bf2042"]
+          },
+          {
+            "name": "Jedi: Fallen Order",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Fallen Order.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-fallen-order/",
+            "tags": ["star wars", "jedi", "action", "rpg", "single player"]
+          },
+          {
+            "name": "NFS Unbound",
+            "img": "https://cdn2.steamgriddb.com/thumb/c8a96ca4620cb058823b76fb3c6aa6e8.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-unbound/",
+            "tags": ["need for speed", "nfs", "unbound", "racing", "cars", "driving"]
+          },
+          {
+            "name": "Apex Legends",
+            "img": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg",
+            "url": "https://help.ea.com/en/games/apex-legends/apex-legends/",
+            "tags": ["apex legends", "apex", "battle royale", "fps", "shooter", "multiplayer", "free to play"]
+          }
+        ]
+      },
+      {
+        "id": "xbox",
+        "name": "Xbox",
+        "icon": "fa-brands fa-xbox",
+        "games": [
+          {
+            "name": "EA Sports FC 26",
+            "img": "https://help.ea.com/_images/seegk6e7ypwi/6gpdzMe7UOYdpLqPRkqZpp/0a543b117f22f4b0abf5c61570db3912/fc-26-box-art-image.webp",
+            "url": "https://help.ea.com/en/games/ea-sports-fc/fc-26/",
+            "tags": ["ea sports fc", "fc", "fc 26", "fifa", "football", "soccer", "sports"]
+          },
+          {
+            "name": "Battlefield V",
+            "img": "https://cdn2.steamgriddb.com/thumb/ed699f1ad2b29cc7163de85ba523e413.jpg",
+            "url": "https://help.ea.com/en/games/battlefield/battlefield-v/",
+            "tags": ["battlefield", "fps", "shooter", "multiplayer", "ww2", "bfv"]
+          },
+          {
+            "name": "Mass Effect Andromeda",
+            "img": "https://cdn2.steamgriddb.com/thumb/07f4dafbc9293fa6c555be969dacf4ef.jpg",
+            "url": "https://help.ea.com/en/games/mass-effect/mass-effect-andromeda/",
+            "tags": ["mass effect", "me", "andromeda", "rpg", "sci-fi", "shooter", "single player"]
+          },
+          {
+            "name": "The Veilguard",
+            "img": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg",
+            "url": "https://help.ea.com/en/games/dragon-age/dragon-age-the-veilguard/",
+            "tags": ["dragon age", "veilguard", "rpg", "fantasy", "action", "single player"]
+          },
+          {
+            "name": "Jedi: Survivor",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Jedi Survivor.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-jedi-survivor/",
+            "tags": ["star wars", "jedi", "action", "rpg", "single player"]
+          }
+        ]
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "icon": "fa-solid fa-mobile-screen-button",
+        "games": [
+          {
+            "name": "Star Wars Galaxy of Heroes",
+            "img": "/SRC/Assets/Images/StarWarsIcons/Galaxy of Heroes.webp",
+            "url": "https://help.ea.com/en/games/star-wars/star-wars-galaxy-heroes/",
+            "tags": ["star wars", "galaxy of heroes", "mobile", "rpg", "strategy"]
+          },
+          {
+            "name": "The Sims Freeplay",
+            "img": "https://cdn2.steamgriddb.com/thumb/d5f6c58dc97738436e47c9071d36b665.jpg",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "the sims", "freeplay", "simulation", "life sim", "mobile"]
+          },
+          {
+            "name": "SimCity Buildit",
+            "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4k.webp",
+            "url": "https://help.ea.com/en/games/the-sims/the-sims-4/",
+            "tags": ["sims", "simcity", "sim city", "buildit", "simulation", "city builder", "mobile"]
+          },
+          {
+            "name": "NFS No Limits",
+            "img": "https://cdn2.steamgriddb.com/thumb/0e7523aa0cffa244fbf91fa10dbd2853.jpg",
+            "url": "https://help.ea.com/en/games/need-for-speed/need-for-speed-no-limits/",
+            "tags": ["need for speed", "nfs", "no limits", "racing", "cars", "driving", "mobile"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "forumSupportItems": {
+    "featuredItems": [
+      { "title": "EA Forums Rules & Guidelines", "author": "EA_David", "url": "https://forums.ea.com/kb/ea-forums-tutorials-and-rules-en/ea-forums-rules--guidelines/19" },
+      { "title": "Introducing custom avatars", "author": "EA_David", "url": "https://forums.ea.com/kb/ea-forums-tutorials-and-rules-en/introducing-custom-avatars-/12048417" },
+      {
+        "title": "New to the EA Forums? Start here!",
+        "author": "EA_Lanna",
+        "url": "https://forums.ea.com/kb/ea-forums-tutorials-and-rules-en/new-to-the-ea-forums-start-here/13230185"
+      },
+      {
+        "title": "Getting Started — Welcome to the Forums!",
+        "author": "EA_David",
+        "url": "https://forums.ea.com/blog/ea-forums-info-hub-en/getting-started---welcome-to-the-ea-forums/26"
+      },
+      { "title": "Post approval and ongoing changes", "author": "EA_David", "url": "https://forums.ea.com/blog/ea-forums-info-hub-en/post-approval-and-ongoing-changes-/13288460" },
+      { "title": "EA Forums Update — Winter Edition", "author": "EA_David", "url": "https://forums.ea.com/blog/ea-forums-info-hub-en/ea-forums-update---winter-edition/5027672" },
+      {
+        "title": "Navigating the language boards",
+        "author": "EA_David",
+        "url": "https://forums.ea.com/kb/ea-forums-tutorials-and-rules-en/navigating-the-language-boards-on-the-ea-forums/5052497"
+      }
+    ],
+
+    "topicItems": [
+      {
+        "id": "jedisurvive",
+        "name": "Jedi: Survivor",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/1AaFXpA58EQxApn7ZLpLn7/54decdde6180847ae7a81b74d0ae4cb1/star-wars-jedi-survivor-box-art-image.webp"
+      },
+      {
+        "id": "jedifallen",
+        "name": "Jedi: Fallen Order",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/3pHFnhDBeGmFbRIw9IaUA8/93d0d3171d9bfb4253c466cbaa73bb00/star-wars-jedi-fallen-order-box-art-image.webp"
+      },
+      {
+        "id": "swbf2015",
+        "name": "Star Wars: Battlefront",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/3EfWRY9879h5M9VJ8JQfLn/21d58778c371bf14fffe55ab15591adb/star-wars-battlefront-box-art-image.webp"
+      },
+      {
+        "id": "swbf2017",
+        "name": "Star Wars: Battlefront II",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/7H9QkcirIyVJhKnIftIafJ/c1a77dcb9979a413f91b5e392a59146d/star-wars-battlefront-II-box-art-image.webp"
+      },
+      { "id": "sims4", "name": "The Sims 4", "img": "https://cdn2.steamgriddb.com/thumb/5c1d8b6ff107dafb76906e0334e62a87.jpg", "extra": true },
+      { "id": "sims3", "name": "The Sims 3", "img": "https://cdn2.steamgriddb.com/thumb/9f9a39a966782c30b1cad272678817f4.jpg", "extra": true },
+      { "id": "sims2", "name": "The Sims 2", "img": "https://cdn2.steamgriddb.com/thumb/3ed3a1e616ae775ac9a15faaf6dd8f75.jpg", "extra": true },
+      { "id": "sims1", "name": "The Sims", "img": "https://cdn2.steamgriddb.com/thumb/8702a092099be98846b10843a5d45453.jpg", "extra": true },
+      { "id": "apex", "name": "Apex Legends", "img": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg", "extra": true },
+      { "id": "bf2042", "name": "Battlefield 2042", "img": "https://cdn2.steamgriddb.com/thumb/06cbf59777880dfb10eeec416060f163.jpg", "extra": true },
+      {
+        "id": "bfv",
+        "name": "Battlefield V",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/1ZMtV5qK9Ohw5yP5yYAGWR/ac03734dfd88b2f4ab2d87a7842f15c6/battlefield-v-box-art.webp",
+        "extra": true
+      },
+      {
+        "id": "fc25",
+        "name": "EA Sports FC 25",
+        "img": "https://help.ea.com/_images/seegk6e7ypwi/4KfJA26hFVFriBYuOBvAqM/0205fc40d9ed978b02567712aa2f9f46/fc-25-box-art-image.webp",
+        "extra": true
+      },
+      { "id": "da-veil", "name": "Dragon Age: Veilguard", "img": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg", "extra": true },
+      { "id": "me-leg", "name": "ME Legendary Edition", "img": "https://cdn2.steamgriddb.com/thumb/ca897e6a0038f36de238bd81b9ef17f9.jpg", "extra": true },
+      { "id": "simsfp", "name": "The Sims Freeplay", "img": "https://cdn2.steamgriddb.com/thumb/d5f6c58dc97738436e47c9071d36b665.jpg", "extra": true },
+      { "id": "mysims", "name": "My Sims: Cozy Bundle", "img": "https://cdn2.steamgriddb.com/thumb/a017e701296751200dc2031d9dda6ecb.png", "extra": true }
+    ],
+
+    "postItems": [
+      {
+        "id": "p1",
+        "user": "Lorem2",
+        "initials": "L2",
+        "color": "#e07b39",
+        "role": "newcomer",
+        "roleLabel": "Ring Newcomer",
+        "date": "26 May, 2026 · 4:17 PM",
+        "title": "Game crash when Storm Point is on queue",
+        "content": "Storm Point crash is back... Yup just that. Some people with AMD graphics cards (and sometimes Intel) may encounter this problem when starting the game. This bug started last season and the devs solution at the moment was to remove the map temporarily. In my personal experience I couldn't fix it, but some people could by following the steps below.",
+        "tags": ["crashing", "launching", "pc"],
+        "topicId": "apex",
+        "likes": 12,
+        "views": 1840,
+        "replies": 34,
+        "hasSolution": false,
+        "thumb": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg"
+      },
+      {
+        "id": "p2",
+        "user": "LucyMontes",
+        "initials": "LM",
+        "color": "#7c3aed",
+        "role": "moderator",
+        "roleLabel": "Accepted Moderator",
+        "date": "25 May, 2026 · 10:53 AM",
+        "title": "Ranked requeue claims there is too large a rank mismatch, when there is not.",
+        "content": "As you can see in the screenshot, the game seems to think mine and my friends' ranks are too mismatched when requeuing. I am plat 4, they are both gold 3. It lets us queue from the lobby, but does this whenever we die and try to requeue.",
+        "tags": ["update"],
+        "topicId": "apex",
+        "likes": 28,
+        "views": 4210,
+        "replies": 16,
+        "hasSolution": false,
+        "thumb": null
+      },
+      {
+        "id": "p3",
+        "user": "BoBBob518",
+        "initials": "BB",
+        "color": "#2ecc71",
+        "role": "newcomer",
+        "roleLabel": "Sim Newcomer",
+        "date": "25 May, 2026 · 7:34 PM",
+        "title": "Sim stuck at veterinarian",
+        "content": "I can't choose any tag that matches what problem I'm having. My sim is at vets with cats. One cat is getting examined and never finishes. I can't direct my sim to do anything. I can't get them to travel home; go to worlds is greyed out. So is travel for the sim. Anybody have any suggestions to fix this? Thank you for any and all help.",
+        "tags": ["help", "mobile"],
+        "topicId": "sims4",
+        "likes": 4,
+        "views": 320,
+        "replies": 0,
+        "hasSolution": false,
+        "thumb": "https://cdn2.steamgriddb.com/thumb/5c1d8b6ff107dafb76906e0334e62a87.jpg"
+      },
+      {
+        "id": "p4",
+        "user": "GalacticGamer",
+        "initials": "GG",
+        "color": "#2962ff",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "24 May, 2026 · 9:14 AM",
+        "title": "EA App update 7.4 — download speeds massively improved",
+        "content": "Hey everyone! EA just pushed update 7.4 to the EA App and I wanted to start a thread so we can all compare notes. On my end the download speeds have noticeably improved — games that used to take 40 minutes are finishing in about 25. Has anyone else noticed the new Quick Resume feature in the library?",
+        "tags": ["discussion", "pc"],
+        "topicId": null,
+        "likes": 47,
+        "views": 12453,
+        "replies": 89,
+        "hasSolution": false,
+        "thumb": null
+      },
+      {
+        "id": "p5",
+        "user": "TechWizard99",
+        "initials": "TW",
+        "color": "#7c3aed",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "24 May, 2026 · 3:01 PM",
+        "title": "BF2042 Season 8 — full patch notes breakdown and analysis",
+        "content": "Season 8 is here and there's a lot to unpack. The balance changes to the SMG class are significant. The MAC-5 nerf was expected but the PPSH buff is a surprise. Let's break down each change and what it means for ranked play.",
+        "tags": ["discussion", "guide"],
+        "topicId": "bf2042",
+        "likes": 83,
+        "views": 9430,
+        "replies": 54,
+        "hasSolution": false,
+        "thumb": "https://cdn2.steamgriddb.com/icon_thumb/9119bd21dd1bca0a9ae6fd8379c237b9.png"
+      },
+      {
+        "id": "p6",
+        "user": "SportsAce26",
+        "initials": "SA",
+        "color": "#00a651",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "23 May, 2026 · 6:00 PM",
+        "title": "FC 25 FUT Champions points not credited after wins",
+        "content": "Major bug in FC 25 Ultimate Team — FUT Champions qualifying points are NOT being awarded after wins in Weekend League. I won 4 games in a row this morning and my point total hasn't moved at all. This is a competitive ranked mode, EA really needs to address this fast.",
+        "tags": ["bug", "account"],
+        "topicId": "fc25",
+        "likes": 156,
+        "views": 41200,
+        "replies": 203,
+        "hasSolution": true,
+        "thumb": "https://cdn2.steamgriddb.com/icon/b0197b6b32714a65a0eb00a5a7674eeb/32/256x256.png"
+      },
+      {
+        "id": "p7",
+        "user": "NightOwlGamer",
+        "initials": "NO",
+        "color": "#059669",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "22 May, 2026 · 8:15 PM",
+        "title": "EA App library showing games as Not Installed after update 7.4",
+        "content": "After installing EA App update 7.4, my entire games library (about 14 games) is showing as Not Installed even though all the game files are still on my drive. I've tried repairing the app, clearing the cache, restarting the service, and re-scanning the install folder. Nothing has worked.",
+        "tags": ["bug", "pc"],
+        "topicId": null,
+        "likes": 39,
+        "views": 9423,
+        "replies": 57,
+        "hasSolution": true,
+        "thumb": null
+      },
+      {
+        "id": "p8",
+        "user": "HelpfulHero",
+        "initials": "HH",
+        "color": "#0891b2",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "22 May, 2026 · 12:00 PM",
+        "title": "PSA: How to check if your EA Account has been compromised",
+        "content": "With credential stuffing attacks on the rise, here's how to tell if your EA Account has been accessed without your knowledge and what to do about it. Check your login history: EA Account Settings → Security → Recent Activity. Every login with IP and location is listed there.",
+        "tags": ["account", "guide"],
+        "topicId": null,
+        "likes": 97,
+        "views": 7601,
+        "replies": 31,
+        "hasSolution": false,
+        "thumb": null
+      },
+      {
+        "id": "p9",
+        "user": "ProPlayer_EA",
+        "initials": "PP",
+        "color": "#c8392b",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "21 May, 2026 · 2:00 PM",
+        "title": "Apex Legends beginner guide — tips from a Diamond player",
+        "content": "I've been playing Apex since Season 1 and hit Diamond four seasons running. Movement is everything. Bunny hopping, slide cancels, and wall bounces aren't just tricks — they're survival mechanics. Spend 20 minutes in the firing range learning slide cancels before your next ranked match.",
+        "tags": ["guide", "discussion"],
+        "topicId": "apex",
+        "likes": 184,
+        "views": 19330,
+        "replies": 76,
+        "hasSolution": false,
+        "thumb": "https://cdn2.steamgriddb.com/thumb/ad016a70960849e9ee1e6a286bbba410.jpg"
+      },
+      {
+        "id": "p10",
+        "user": "QuietObserver",
+        "initials": "QO",
+        "color": "#0ea5e9",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "20 May, 2026 · 7:00 PM",
+        "title": "How do I save manually in Dragon Age: The Veilguard?",
+        "content": "I'm about 8 hours into Dragon Age: The Veilguard and I keep accidentally progressing past points I want to go back to. The game seems to autosave but I can't work out how to create a named manual save. Is this a feature in the game or not?",
+        "tags": ["help"],
+        "topicId": "da-veil",
+        "likes": 6,
+        "views": 2890,
+        "replies": 12,
+        "hasSolution": true,
+        "thumb": "https://cdn2.steamgriddb.com/thumb/a0b69c4d2b42a08d0e63facbd4f8ee34.jpg"
+      },
+      {
+        "id": "p11",
+        "user": "BugHunterX",
+        "initials": "BH",
+        "color": "#ef4444",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "20 May, 2026 · 8:30 AM",
+        "title": "[BF2042] Season 8 crash on Kaleidoscope — reproducible steps inside",
+        "content": "Found a reproducible crash in Battlefield 2042 Season 8 on the Kaleidoscope map. Load into a Conquest 128-player lobby, ride any vehicle into the underground tunnel on the east side of Sector B, throw a grenade while exiting the vehicle at speed. Game freezes every time.",
+        "tags": ["crashing", "bug", "pc"],
+        "topicId": "bf2042",
+        "likes": 88,
+        "views": 28910,
+        "replies": 134,
+        "hasSolution": false,
+        "thumb": "https://cdn2.steamgriddb.com/icon_thumb/9119bd21dd1bca0a9ae6fd8379c237b9.png"
+      },
+      {
+        "id": "p12",
+        "user": "EA_SupportAgent",
+        "initials": "EA",
+        "color": "#d97706",
+        "role": "ea-staff",
+        "roleLabel": "EA Staff",
+        "date": "19 May, 2026 · 9:10 AM",
+        "title": "[Official] Known Issues — May 2026 Update",
+        "content": "Hello EA Community! Here is the current list of known issues we are tracking for May 2026. We will update this post as fixes are deployed. Issues currently under investigation: Battlefield 2042 Kaleidoscope crash (hotfix ETA 48hrs), FC 25 FUT Champs points crediting (resolved), EA App library scan (resolved).",
+        "tags": ["update"],
+        "topicId": null,
+        "likes": 312,
+        "views": 88400,
+        "replies": 241,
+        "hasSolution": false,
+        "thumb": null
+      },
+      {
+        "id": "p13",
+        "user": "CloneCommander",
+        "initials": "CC",
+        "color": "#2563eb",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "26 May, 2026 · 2:40 PM",
+        "title": "Jedi Survivor crashing after latest patch",
+        "content": "Since the latest update the game crashes whenever I fast travel to Koboh. Verified files and updated drivers but no luck.",
+        "tags": ["crashing", "pc"],
+        "topicId": "jedisurvive",
+        "likes": 32,
+        "views": 5120,
+        "replies": 27,
+        "hasSolution": true,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/1AaFXpA58EQxApn7ZLpLn7/54decdde6180847ae7a81b74d0ae4cb1/star-wars-jedi-survivor-box-art-image.webp"
+      },
+      {
+        "id": "p14",
+        "user": "ForceWalker",
+        "initials": "FW",
+        "color": "#22c55e",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "25 May, 2026 · 11:08 AM",
+        "title": "Best skill tree upgrades for Grand Master difficulty?",
+        "content": "Starting my second playthrough on Grand Master. What skills should be prioritised first for survivability?",
+        "tags": ["guide", "discussion"],
+        "topicId": "jedisurvive",
+        "likes": 65,
+        "views": 7800,
+        "replies": 42,
+        "hasSolution": false,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/1AaFXpA58EQxApn7ZLpLn7/54decdde6180847ae7a81b74d0ae4cb1/star-wars-jedi-survivor-box-art-image.webp"
+      },
+      {
+        "id": "p15",
+        "user": "PadawanTom",
+        "initials": "PT",
+        "color": "#f59e0b",
+        "role": "newcomer",
+        "roleLabel": "Ring Newcomer",
+        "date": "24 May, 2026 · 7:32 PM",
+        "title": "Can't unlock New Journey+",
+        "content": "Finished the story but New Journey+ isn't appearing on the main menu. Anyone else having this issue?",
+        "tags": ["help"],
+        "topicId": "jedisurvive",
+        "likes": 8,
+        "views": 1240,
+        "replies": 5,
+        "hasSolution": true,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/1AaFXpA58EQxApn7ZLpLn7/54decdde6180847ae7a81b74d0ae4cb1/star-wars-jedi-survivor-box-art-image.webp"
+      },
+      {
+        "id": "p16",
+        "user": "JediKnight88",
+        "initials": "JK",
+        "color": "#8b5cf6",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "24 May, 2026 · 9:50 AM",
+        "title": "Fallen Order stuttering on PC after Windows update",
+        "content": "The game was running perfectly until a recent Windows update. Now I get severe frame pacing issues.",
+        "tags": ["pc", "help"],
+        "topicId": "jedifallen",
+        "likes": 21,
+        "views": 3300,
+        "replies": 14,
+        "hasSolution": false,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/3pHFnhDBeGmFbRIw9IaUA8/93d0d3171d9bfb4253c466cbaa73bb00/star-wars-jedi-fallen-order-box-art-image.webp"
+      },
+      {
+        "id": "p17",
+        "user": "BattlefrontFan",
+        "initials": "BF",
+        "color": "#dc2626",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "23 May, 2026 · 1:10 PM",
+        "title": "Still finding full Battlefront 2015 lobbies?",
+        "content": "Surprisingly I've been getting Walker Assault matches consistently. Curious what regions are still active.",
+        "tags": ["discussion"],
+        "topicId": "swbf2015",
+        "likes": 57,
+        "views": 6910,
+        "replies": 61,
+        "hasSolution": false,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/3EfWRY9879h5M9VJ8JQfLn/21d58778c371bf14fffe55ab15591adb/star-wars-battlefront-box-art-image.webp"
+      },
+      {
+        "id": "p18",
+        "user": "GeneralKenobi",
+        "initials": "GK",
+        "color": "#0ea5e9",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "22 May, 2026 · 8:44 PM",
+        "title": "Hero Assault matchmaking takes forever",
+        "content": "Queue times for Hero modes have become extremely long over the last week.",
+        "tags": ["help"],
+        "topicId": "swbf2015",
+        "likes": 14,
+        "views": 2280,
+        "replies": 19,
+        "hasSolution": false,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/3EfWRY9879h5M9VJ8JQfLn/21d58778c371bf14fffe55ab15591adb/star-wars-battlefront-box-art-image.webp"
+      },
+      {
+        "id": "p19",
+        "user": "RepublicAce",
+        "initials": "RA",
+        "color": "#16a34a",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "21 May, 2026 · 10:03 AM",
+        "title": "Battlefront II Celebration Edition content missing",
+        "content": "Logged in today and almost all my cosmetic unlocks have disappeared.",
+        "tags": ["account", "bug"],
+        "topicId": "swbf2017",
+        "likes": 88,
+        "views": 15300,
+        "replies": 97,
+        "hasSolution": true,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/7H9QkcirIyVJhKnIftIafJ/c1a77dcb9979a413f91b5e392a59146d/star-wars-battlefront-II-box-art-image.webp"
+      },
+      {
+        "id": "p20",
+        "user": "DarthCoder",
+        "initials": "DC",
+        "color": "#7c3aed",
+        "role": "member",
+        "roleLabel": "Community Member",
+        "date": "20 May, 2026 · 4:55 PM",
+        "title": "Supremacy mode still the best multiplayer experience",
+        "content": "After all these years I still think Supremacy is the peak Star Wars multiplayer mode.",
+        "tags": ["discussion"],
+        "topicId": "swbf2017",
+        "likes": 142,
+        "views": 18800,
+        "replies": 104,
+        "hasSolution": false,
+        "thumb": "https://help.ea.com/_images/seegk6e7ypwi/7H9QkcirIyVJhKnIftIafJ/c1a77dcb9979a413f91b5e392a59146d/star-wars-battlefront-II-box-art-image.webp"
+      }
+    ]
+  }
+}

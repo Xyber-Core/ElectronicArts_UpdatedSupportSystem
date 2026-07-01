@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EA Help — Game Support</title>
+    <meta name="description" content="Get help with EA game issues, troubleshooting, bug fixes, installation problems, and support resources across supported Electronic Arts titles." />
+    <meta name="author" content="Riker Hoch" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EA Help — Game Support - {Unofficial}" />
+    <meta property="og:description" content="Get help with EA game issues, troubleshooting, bug fixes, installation problems, and support resources across supported Electronic Arts titles." />
+    <meta property="og:url" content="https://yourdomain.com/game-support.html" />
+    <meta property="og:site_name" content="Electronic Arts Support" />
+
+    <link rel="shortcut icon" href="/SRC/Assets/Images/SiteIcons/Icon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://yourdomain.com/game-support.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/SRC/CSS/Global.css">
+    <style>
+      body.preload {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="preload">
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="root reveal">
+      <main class="main">
+        <header class="siteComponent Navigation"></header>
+
+        <div class="content">
+          <div class="mosaicHead reveal" id="gameMosaic"></div>
+
+          <!-- ══ MAIN GAMES CARD ═══════════════════════════ -->
+          <div class="glassCard games-card" id="glassCard">
+            <!-- TRENDING GAMES -->
+            <div class="section-header">
+              <div class="section-title">
+                <span class="section-title-text">Trending Games</span>
+                <span class="section-badge"><i class="fa-solid fa-fire"></i> Hot</span>
+              </div>
+            </div>
+            <div class="game-grid cols-4-scroll" id="trending-grid"></div>
+
+            <div class="section-divider"></div>
+
+            <!-- FRANCHISES -->
+            <div class="section-header">
+              <div class="section-title">
+                <span class="section-title-text">Franchises</span>
+              </div>
+              <a href="/SRC/HTML/Pages/Placeholder.html">
+                <span class="section-see-all">See all <i class="fa-solid fa-chevron-right"></i></span>
+              </a>
+            </div>
+            <div class="game-grid cols-4" id="franchise-grid"></div>
+
+            <div class="section-divider"></div>
+
+            <!-- PLATFORMS -->
+            <div class="section-header">
+              <div class="section-title">
+                <span class="section-title-text">Platforms</span>
+              </div>
+              <a href="/SRC/HTML/Pages/Placeholder.html">
+                <span class="section-see-all">See all <i class="fa-solid fa-chevron-right"></i></span>
+              </a>
+            </div>
+            <div class="game-grid cols-4" id="platform-grid"></div>
+          </div>
+
+          <!-- ══ STILL HAVING ISSUES? ═══════════════════════ -->
+          <div class="siteCard glassCard issuesCard"></div>
+        </div>
+
+        <footer class="siteComponent Footer"></footer>
+      </main>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════
+    Game Modal - [To display game details when a game card is clicked.]
+══════════════════════════════════════════════════════ -->
+    <div class="modal-backdrop " id="modal-backdrop" role="dialog" aria-modal="true">
+      <div class="modal-box" id="modal-box">
+        <div class="modal-accent" id="modal-accent"></div>
+        <div class="modal-header">
+          <div class="modal-cover-fallback" id="modal-thumb-fallback">
+            <i class="fa-solid fa-gamepad"></i>
+          </div>
+          <img class="modal-cover-thumb" id="modal-thumb" src="" loading="lazy" alt="" style="display: none" />
+          <div class="modal-header-text">
+            <div class="modal-category-label" id="modal-category-label"></div>
+            <div class="modal-title" id="modal-title"></div>
+            <div class="modal-count" id="modal-count"></div>
+          </div>
+          <button class="siteBtn close" id="modal-close" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-game-grid" id="modal-game-grid"></div>
+        </div>
+      </div>
+    </div>
+<script defer src="https://kit.fontawesome.com/498f4b6a30.js"></script>
+    <script type="module" src="/SRC/JS/Components.js"></script>
+    <script type="module" src="/SRC/JS/ImportedScripts.js"></script>
+  </body>
+</html>

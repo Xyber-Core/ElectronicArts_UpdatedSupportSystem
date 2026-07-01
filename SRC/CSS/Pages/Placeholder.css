@@ -1,0 +1,297 @@
+/* =========================================================
+    ⚙️ Page Specifically Related Styles
+  ========================================================= */
+
+  /* =========================================================
+    📱 Placeholder Styles
+  ========================================================= */
+
+  .stage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 52px 80px;
+    position: relative;
+  }
+
+  /* ── PLACEHOLDER CARD ───────────────────────────── */
+  .placeholder-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-faint);
+    border-radius: 40px;
+    backdrop-filter: blur(8px);
+    padding: 72px 80px 68px;
+    max-width: 680px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    animation: cardIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes cardIn {
+    from {
+      opacity: 0;
+      transform: translateY(36px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  /* inner gloss */
+  .placeholder-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, transparent 55%);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+  /* bottom ambient glow */
+  .placeholder-card::after {
+    content: "";
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 480px;
+    height: 240px;
+    background: radial-gradient(ellipse, rgba(41, 98, 255, 0.2) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* ── ICON ORB ───────────────────────────────────── */
+  .orb-icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 36px;
+  }
+  .orb-icon-bg {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(41, 98, 255, 0.35), rgba(100, 60, 220, 0.25));
+    border: 1.5px solid rgba(41, 98, 255, 0.45);
+    box-shadow:
+      0 0 0 8px rgba(41, 98, 255, 0.08),
+      0 0 48px rgba(41, 98, 255, 0.4);
+    animation: orbPulse 4s ease-in-out infinite;
+  }
+  @keyframes orbPulse {
+    0%,
+    100% {
+      box-shadow:
+        0 0 0 8px rgba(41, 98, 255, 0.08),
+        0 0 48px rgba(41, 98, 255, 0.4);
+    }
+    50% {
+      box-shadow:
+        0 0 0 14px rgba(41, 98, 255, 0.12),
+        0 0 72px rgba(41, 98, 255, 0.6);
+    }
+  }
+  .orb-icon i {
+    position: relative;
+    font-size: 38px;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 10px rgba(96, 165, 250, 0.5));
+  }
+
+  /* small spinning dashes around the orb */
+  .orb-ring {
+    position: absolute;
+    inset: -16px;
+    border-radius: 50%;
+    border: 1.5px dashed rgba(96, 165, 250, 0.25);
+    animation: spinSlow 18s linear infinite;
+  }
+  .orb-ring::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--blue-neon);
+    box-shadow: 0 0 10px var(--blue-neon);
+  }
+  @keyframes spinSlow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* ── LABEL CHIP ─────────────────────────────────── */
+  .label-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(41, 98, 255, 0.15);
+    border: 1px solid rgba(41, 98, 255, 0.35);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blue-neon);
+    margin-bottom: 24px;
+  }
+  .label-chip i {
+    font-size: 10px;
+    animation: blink 2s ease-in-out infinite;
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+  }
+
+  /* ── HEADING ─────────────────────────────────────── */
+  .ph-title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(44px, 6vw, 68px);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin-bottom: 20px;
+  }
+  .ph-title span {
+    display: block;
+    background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .ph-sub {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-text);
+    line-height: 1.7;
+    max-width: 440px;
+    margin: 0 auto 44px;
+  }
+
+  /* ── BUTTON ROW ──────────────────────────────────── */
+  .btn-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  /* ── QUICK LINKS ─────────────────────────────────── */
+  .quick-links {
+    margin-top: 44px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .quick-links-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.25);
+    margin-bottom: 18px;
+  }
+  .quick-links-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .quick-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-faint);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .quick-link i {
+    font-size: 12px;
+  }
+  .quick-link:hover {
+    background: rgba(41, 98, 255, 0.14);
+    border-color: rgba(41, 98, 255, 0.4);
+    color: var(--blue-neon);
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 639px) {
+    /* ---------------------------------------------------------
+   🪪 - Placeholder [Mobile Friendly]
+  --------------------------------------------------------- */
+
+  .stage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: clamp(24px, 4vw, 60px) clamp(16px, 4vw, 52px) clamp(40px, 6vw, 80px);
+  }
+
+  .placeholder-card {
+    padding: clamp(28px, 5vw, 72px) clamp(20px, 6vw, 80px) clamp(28px, 5vw, 68px);
+
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .orb-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+
+  .orb-icon i {
+    font-size: 28px;
+  }
+
+  .btn-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btnHome,
+  .btnBack {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .quick-links-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .quick-link {
+    justify-content: center;
+  }
+  }

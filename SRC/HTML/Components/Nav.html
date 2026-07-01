@@ -1,0 +1,150 @@
+<!-- ══════════════════════════════════════════════════════
+    Top-Navigation
+══════════════════════════════════════════════════════ -->
+<nav class="topnav">
+  <div style="width: 120px"></div>
+
+  <div class="topnav-right">
+    <div class="icon-btn">
+      <a href="https://help.ea.com/en/server-status/" target="_blank" aria-label="Servers">
+        <i class="fa-solid fa-server"></i>
+      </a>
+    </div>
+
+    <div class="icon-btn">
+      <a href="/SRC/HTML/Pages/Placeholder.html" aria-label="Account">
+        <i class="fa-regular fa-user"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════
+    Primary Hero Heading
+══════════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-heading">
+      <svg
+        fill="currentColor"
+        viewBox="0 0 41 40"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        data-testid="@paloma-logo-ea"
+        height="44"
+        width="44"
+        class="@paloma-logo-image"
+        style="fill: currentcolor"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M20.5 40C31.5457 40 40.5 31.0457 40.5 20C40.5 8.9543 31.5457 0 20.5 0C9.4543 0 0.5 8.9543 0.5 20C0.5 31.0457 9.4543 40 20.5 40ZM8.36931 18.583H20.017L18.2273 21.4453H12.6307L10.8693 24.1377H19.0795L26.3807 13L35.5 27H32.0625L30.2443 24.1377H24.9318L26.6932 21.4453H28.3977L26.3807 18.583L20.6989 27H5.5L9.10796 21.4453H6.49432L8.36931 18.583ZM12.0909 13H23.9943L22.233 15.9474H10.2727L12.0909 13Z"
+          fill-rule="evenodd"
+        ></path>
+      </svg>
+      <h1 class="hero-title" id="hero-title"></h1>
+    </div>
+
+    <p class="hero-sub" id="hero-sub"></p>
+  </div>
+  <!-- ══════════════════════════════════════════════════════
+    Animated Orb & Search Bar
+══════════════════════════════════════════════════════ -->
+  <div class="hero-orb-wrap">
+    <canvas id="orb-canvas"></canvas>
+  </div>
+</section>
+
+<div class="search-wrap">
+  <div class="search-bar">
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+    <input id="searchInput" autocomplete="off" type="text" placeholder="Search EA Help" aria-label="Search EA Help" />
+  </div>
+  <!-- ══════════════════════════════════════════════════════
+    Search Results for the primary search bar. 
+    Populated dynamically via JavaScript
+══════════════════════════════════════════════════════ -->
+  <div id="search-results" class="search-results hidden">
+<div class="results-header">
+  <div class="results-title">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    Search Results
+  </div>
+  <div class="results-subtitle">Games • Account • Platform • Articles</div>
+</div>
+  <div class="results-section" data-type="games">
+    <h3>Games</h3>
+    <ul></ul>
+  </div>
+
+  <div class="results-section" data-type="account">
+    <h3>Account</h3>
+    <ul></ul>
+  </div>
+
+  <div class="results-section" data-type="platform">
+    <h3>Platform</h3>
+    <ul></ul>
+  </div>
+
+  <div class="results-section" data-type="articles">
+    <h3>Articles</h3>
+    <ul></ul>
+  </div>
+
+</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+    Primary Navigation
+══════════════════════════════════════════════════════ -->
+<div class="cat-nav">
+  <a href="/SRC/HTML/Pages/ForumSupport.html" class="cat-item" data-page="forumsupport">
+    <div class="cat-icon">
+      <i class="fa-solid fa-comments"></i>
+    </div>
+
+    <span class="cat-label">Support Forums</span>
+  </a>
+
+  <a href="/SRC/HTML/Pages/GameSupport.html" class="cat-item" data-page="gamesupport">
+    <div class="cat-icon">
+      <i class="fa-solid fa-gamepad"></i>
+    </div>
+
+    <span class="cat-label">Game Support</span>
+  </a>
+
+  <a href="/SRC/HTML/Pages/MyAccount.html" class="cat-item" data-page="myaccount">
+    <div class="cat-icon">
+      <i class="fa-solid fa-user"></i>
+    </div>
+
+    <span class="cat-label">EA Account</span>
+  </a>
+
+  <a href="/SRC/HTML/Pages/PlatformSupport.html" class="cat-item" data-page="platformsupport">
+    <div class="cat-icon">
+      <i class="fa-solid fa-computer"></i>
+    </div>
+
+    <span class="cat-label">Platform Support</span>
+  </a>
+
+  <a href="/SRC/HTML/Pages/MyCases.html" class="cat-item" data-page="mycases">
+    <div class="cat-icon">
+      <i class="fa-solid fa-briefcase"></i>
+    </div>
+
+    <span class="cat-label">My Cases</span>
+  </a>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+    Sub-Navigation
+══════════════════════════════════════════════════════ -->
+<div class="sub-nav-wrap">
+  <nav class="sub-nav" id="sub-nav-links"></nav>
+</div>

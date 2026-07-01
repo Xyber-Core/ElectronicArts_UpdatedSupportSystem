@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EA Help — My Cases</title>
+    <meta name="description" content="View your support cases, track case updates, review previous requests, and manage your EA Help support history in one place." />
+    <meta name="author" content="Riker Hoch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EA Help — My Cases - {Unofficial}" />
+    <meta property="og:description" content="View your support cases, track case updates, review previous requests, and manage your EA Help support history in one place." />
+    <meta property="og:url" content="https://yourdomain.com/my-cases.html" />
+    <meta property="og:site_name" content="Electronic Arts Support" />
+    <link rel="canonical" href="https://yourdomain.com/my-cases.html" />
+    <link rel="shortcut icon" href="/SRC/Assets/Images/SiteIcons/Icon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/SRC/CSS/Global.css" />
+    <style>
+      body.preload {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="preload">
+    <canvas id="bg-canvas"></canvas>
+    <div class="root reveal">
+      <main class="main">
+        <header class="siteComponent Navigation"></header>
+
+        <div class="content">
+          <!-- ══════ CARD - ACCESS A CASE ═══════════════════════ -->
+          <div class="siteCard glassCard access-card">
+            <h2 class="card-title">Access a Case</h2>
+            <div class="card-info">
+              <i class="fa-solid fa-circle-info"></i>
+              <p>Your case number and access key are in your case confirmation email.</p>
+            </div>
+            <div class="formRow">
+              <input id="caseNumber" required type="text" placeholder="Case number" aria-label="Case number" autocomplete="off" />
+              <input id="accessKey" required type="text" placeholder="Access key" aria-label="Access key" autocomplete="off" />
+            </div>
+            <button class="viewCases siteBtn btnPrimary">
+              View case
+              <span class="btnIcon">
+                <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+              </span>
+            </button>
+          </div>
+
+          <!-- ══════ CARD - SIGN IN ═══════════════════════ -->
+          <div class="siteCard glassCard signin-card">
+            <div class="hero-text">
+              <div class="signin-left">
+                <svg
+                  fill="currentColor"
+                  viewBox="0 0 41 40"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  data-testid="@paloma-logo-ea"
+                  height="44"
+                  width="44"
+                  class="@paloma-logo-image"
+                  style="fill: currentcolor"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M20.5 40C31.5457 40 40.5 31.0457 40.5 20C40.5 8.9543 31.5457 0 20.5 0C9.4543 0 0.5 8.9543 0.5 20C0.5 31.0457 9.4543 40 20.5 40ZM8.36931 18.583H20.017L18.2273 21.4453H12.6307L10.8693 24.1377H19.0795L26.3807 13L35.5 27H32.0625L30.2443 24.1377H24.9318L26.6932 21.4453H28.3977L26.3807 18.583L20.6989 27H5.5L9.10796 21.4453H6.49432L8.36931 18.583ZM12.0909 13H23.9943L22.233 15.9474H10.2727L12.0909 13Z"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+                <h3 class="signin-title">Sign in to get started</h3>
+              </div>
+
+              <p class="signin-sub">View and manage your support cases by signing in to your EA Account.</p>
+              <div class="signin-left">
+                <a href="/SRC/HTML/Pages/Placeholder.html" class="signInBtn">
+                  Sign in
+                  <span class="btnIcon">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ══════ CARD - STILL HAVING ISSUES? ═══════════════════════ -->
+          <div class="siteCard glassCard issuesCard">
+            <div class="issuesIcon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h2 class="issuesTitle">Still Having Issues?</h2>
+            <p class="issuesSub">Get in touch with our customer support team for more help. We're available 24/7 across live chat, email, and phone.</p>
+            <div class="issuesBtnRow">
+              <a href="/SRC/HTML/Pages/Placeholder.html" class="btnPrimary">
+                <i class="fa-solid fa-comment-dots"></i>
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+        <footer class="siteComponent Footer"></footer>
+      </main>
+    </div>
+
+    <!-- ══════ MODAL - CASE MODAL ═══════════════════════ -->
+    <div class="case-modal-backdrop" id="case-modal">
+      <div class="case-modal-box">
+        <div class="case-modal-banner">
+          <img id="case-banner-img" src="" alt="Case Banner" loading="lazy" />
+
+          <div class="case-banner-overlay"></div>
+
+          <div class="case-status-pill" id="case-status-pill">
+            <i class="fa-solid fa-circle-check"></i>
+            Active
+          </div>
+        </div>
+
+        <div class="case-modal-content">
+          <div class="case-modal-header">
+            <div class="case-modal-icon success" id="case-modal-icon">
+              <i class="fa-solid fa-shield-check"></i>
+            </div>
+
+            <div>
+              <div class="case-type-label" id="case-type-label"></div>
+
+              <h3 class="case-modal-title" id="case-modal-title"></h3>
+            </div>
+          </div>
+
+          <p class="case-modal-text" id="case-modal-text"></p>
+
+          <div class="case-details-grid">
+            <div class="case-detail-card">
+              <span class="case-detail-label">Case Number</span>
+              <span class="case-detail-value" id="case-number-detail"></span>
+            </div>
+
+            <div class="case-detail-card">
+              <span class="case-detail-label">Status</span>
+              <span class="case-detail-value" id="case-status-detail"></span>
+            </div>
+
+            <div class="case-detail-card">
+              <span class="case-detail-label">Game</span>
+              <span class="case-detail-value" id="case-game-detail"></span>
+            </div>
+
+            <div class="case-detail-card">
+              <span class="case-detail-label">Last Updated</span>
+              <span class="case-detail-value" id="case-updated-detail"></span>
+            </div>
+          </div>
+
+          <div class="case-timeline">
+            <div class="timeline-title"></div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+
+              <div class="timeline-content">
+                <div class="timeline-heading"></div>
+
+                <div class="timeline-time"></div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+
+              <div class="timeline-content">
+                <div class="timeline-heading"></div>
+
+                <div class="timeline-time"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-modal-actions" id="case-modal-actions"></div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="https://kit.fontawesome.com/498f4b6a30.js"></script>
+    <script type="module" src="/SRC/JS/Components.js"></script>
+    <script type="module" src="/SRC/JS/ImportedScripts.js"></script>
+  </body>
+</html>

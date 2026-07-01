@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EA Help — Support Forums</title>
+    <meta name="description" content="Browse EA Help support forums to find solutions, troubleshoot issues, and read posts from other players across Electronic Arts games." />
+    <meta name="author" content="Riker Hoch" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://yourdomain.com/forums.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EA Help — Support Forums - {Unofficial}" />
+    <meta property="og:description" content="Browse EA Help support forums to find solutions, troubleshoot issues, and read posts from other players across Electronic Arts games." />
+    <meta property="og:url" content="https://yourdomain.com/forums.html" />
+    <meta property="og:site_name" content="Electronic Arts Support" />
+
+    <link rel="shortcut icon" href="/SRC/Assets/Images/SiteIcons/Icon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/SRC/CSS/Global.css">
+    <style>
+      body.preload {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="preload">
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="root reveal">
+      <main class="main">
+        <header class="siteComponent Navigation"></header>
+
+        <div class="content">
+          <!-- ══ FORUMS HERO ════════════════════════════════ -->
+          <div class="mosaicHead reveal" id="forumMosaic"></div>
+          <div>
+            <div id="forum-search-results"></div>
+
+            <div id="forum-content">
+              <!-- ══ TOPICS GRID ════════════════════════════════ -->
+              <div class="glassCard topics-card reveal">
+                <div class="topics-header">
+                  <span class="gamesHeaderText">Filter forum posts by game</span>
+                  <span id="gamesFilterLabel"></span>
+                </div>
+                <div class="topics-grid" id="topics-grid"></div>
+                <div class="topics-show-more-wrap">
+                  <button class="show-more-btn" id="topics-show-more" aria-label="Show more topics">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ══ FEATURED CONTENT ═══════════════════════════ -->
+
+              <div class="glassCard featured-card reveal">
+                <div class="featured-title">Featured Content</div>
+                <div class="featured-grid" id="featured-grid"></div>
+              </div>
+
+              <!-- ══ POSTS ══════════════════════════════════════ -->
+              <div class="glassCard posts-card reveal">
+                <div style="padding: 16px 16px 0">
+                  <div class="filter-tabs-wrap">
+                    <div class="filter-tabs" id="filter-tabs" role="tablist">
+                      <button class="filter-tab active" data-sort="newest" role="tab">Newest Topics</button>
+                      <button class="filter-tab" data-sort="likes" role="tab">Most Likes</button>
+                      <button class="filter-tab" data-sort="views" role="tab">Most Viewed</button>
+                      <button class="filter-tab" data-sort="replies" role="tab">Most Replies</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="search-status" id="search-status">
+                  <i class="fa-solid fa-magnifying-glass" style="font-size: 12px; color: var(--blue-neon)"></i>
+                  Showing results for <strong id="search-term-display"></strong>
+                </div>
+
+                <div class="posts-list-wrap">
+                  <div id="posts-list"></div>
+                  <div class="no-results" id="no-results">
+                    <i class="fa-solid fa-comment-slash"></i>
+                    <h4>No posts found</h4>
+                    <p>Try a different search term or clear the filter</p>
+                  </div>
+                </div>
+
+                <div class="posts-show-more-wrap">
+                  <button class="show-more-btn" id="posts-show-more" aria-label="Show more posts">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ══ CTA ════════════════════════════════════════ -->
+              <div class="siteCard glassCard issuesCard reveal"></div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="siteComponent Footer"></footer>
+      </main>
+    </div>
+
+    <!-- ══════ MODAL - POST MODAL ═══════════════════════ -->
+    <div id="post-modal" class="post-modal">
+      <div class="post-modal-card">
+        <div class="modal-header">
+          <div class="modal-user"></div>
+          <button class="siteBtn close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-image-wrap"></div>
+        <h2 class="modal-title"></h2>
+        <div class="modal-tags"></div>
+        <div class="modal-content"></div>
+        <div class="modal-stats"></div>
+      </div>
+    </div>
+
+    <script defer src="https://kit.fontawesome.com/498f4b6a30.js"></script>
+    <script type="module" src="/SRC/JS/Components.js"></script>
+    <script type="module" src="/SRC/JS/ImportedScripts.js"></script>
+  </body>
+</html>

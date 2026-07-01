@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EA Help — EA Account Support</title>
+    <meta name="description" content="Find help with EA account sign-in issues, password resets, account recovery, security settings, linked accounts, and general account support."/>
+    <meta name="author" content="Riker Hoch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EA Help — EA Account Support - {Unofficial}" />
+    <meta property="og:description" content="Find help with EA account sign-in issues, password resets, account recovery, security settings, linked accounts, and general account support."/>
+    <meta property="og:url" content="https://yourdomain.com/account-support.html" />
+    <meta property="og:site_name" content="Electronic Arts Support" />
+
+    <link rel="shortcut icon" href="/SRC/Assets/Images/SiteIcons/Icon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://yourdomain.com/account-support.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/SRC/CSS/Global.css" />
+    <style>
+      body.preload {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="preload">
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="root reveal">
+      <main class="main">
+        <header class="siteComponent Navigation"></header>
+
+        <div class="content">
+          <!-- ══ TRENDING ARTICLES ════════════════════════ -->
+          <div class="siteCard glassCard trendingCard">
+            <div class="trendingCard__header">
+              <i class="fa-solid fa-fire-flame-curved"></i>
+              <span class="trendingCard__title">Trending Articles</span>
+            </div>
+            <div class="trendingCard__list" id="trendingCard__list"></div>
+          </div>
+
+          <!-- ══ ACCOUNT SECTIONS CARD ═══════════════════ -->
+          <div class="glassCard account-card">
+            <div id="account-sections"></div>
+          </div>
+
+          <!-- ══ STILL HAVING ISSUES? ═════════════════════ -->
+          <div class="siteCard glassCard issuesCard"></div>
+        </div>
+
+        <footer class="siteComponent Footer"></footer>
+      </main>
+    </div>
+    <script defer src="https://kit.fontawesome.com/498f4b6a30.js"></script>
+    <script type="module" src="/SRC/JS/Components.js"></script>
+    <script type="module" src="/SRC/JS/ImportedScripts.js"></script>
+  </body>
+</html>
